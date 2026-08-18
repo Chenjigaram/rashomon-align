@@ -17,6 +17,10 @@ class FoldResult:
 
     @property
     def accuracy_difference(self) -> float:
+        return self.accuracy_b - self.accuracy_a
+
+    @property
+    def absolute_accuracy_difference(self) -> float:
         return abs(self.accuracy_a - self.accuracy_b)
 
 

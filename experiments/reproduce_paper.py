@@ -5,6 +5,7 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
+from pruning import MaximallyPrunedTree
 from scipy.stats import pearsonr
 from sklearn.compose import ColumnTransformer
 from sklearn.datasets import fetch_openml
@@ -31,7 +32,7 @@ def unpruned():
 
 
 def pruned():
-    return DecisionTreeClassifier(min_samples_split=10, ccp_alpha=0.01, random_state=42)
+    return MaximallyPrunedTree(min_samples_split=10, random_state=42)
 
 
 def prepare(frame, target):
@@ -82,11 +83,12 @@ def main() -> None:
             "instances": int(X.shape[0]),
             "features": int(X.shape[1]),
             "accuracy_difference": float(np.mean([f.accuracy_difference for f in folds])),
+            "absolute_accuracy_difference": float(np.mean([f.absolute_accuracy_difference for f in folds])),
             "dra": float(np.mean([f.dra for f in folds])),
             "gra": float(np.mean([f.gra for f in folds])),
         }
         rows.append(row)
-        print(f"{name:<42} dRA={row['dra']:.3f}  gRA={row['gra']:.3f}  dAcc={row['accuracy_difference']:.3f}")
+        print(f"{name:<42} dRA={row['dra']:.3f}  gRA={row['gra']:.3f}  dAcc={row['accuracy_difference']:+.3f}")
 
     if len(rows) < 3:
         raise SystemExit("too few datasets succeeded to compute correlations")
