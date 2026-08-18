@@ -1,0 +1,34 @@
+[project]
+name = "rashomon-align"
+version = "0.1.0"
+description = "Distributional and geometric Rashomon Alignment for measuring functional similarity between models"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Naveen" }]
+
+dependencies = [
+    "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+tabular = ["scikit-learn>=1.3", "pandas>=2.0"]
+paper = ["scikit-learn>=1.3", "pandas>=2.0", "scipy>=1.10", "matplotlib>=3.8"]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
