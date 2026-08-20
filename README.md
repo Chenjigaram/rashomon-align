@@ -6,6 +6,11 @@ An implementation of **Rashomon Alignment** ([arXiv:2607.25680](https://arxiv.or
 Santos, van der Putten, Pfahringer & Soares, July 2026), with a partial reproduction of the
 paper's tabular results.
 
+Applied to a real fine-tuned model in
+**[kid-extract](https://chenjigaram.github.io/kid-extract-lora/)**, where distributional
+alignment scored two extractors as identical and geometric alignment showed they disagree on
+four documents in five.
+
 ## The problem
 
 Two models can score identically on your test set and still define completely different decision
