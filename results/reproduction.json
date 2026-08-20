@@ -1,0 +1,272 @@
+{
+  "datasets": 29,
+  "mean_dra": 0.6815887095600289,
+  "mean_gra": 0.5793379310344827,
+  "pearson_gra_dra": 0.7252334335885654,
+  "pearson_gra_accuracy_difference": 0.1472306363184806,
+  "paper_pearson_gra_dra": 0.745,
+  "paper_pearson_gra_accuracy_difference": 0.514,
+  "rows": [
+    {
+      "dataset": "iris",
+      "instances": 150,
+      "features": 4,
+      "accuracy_difference": -0.2800000000000001,
+      "absolute_accuracy_difference": 0.2800000000000001,
+      "dra": 0.68,
+      "gra": 0.6197999999999999
+    },
+    {
+      "dataset": "wine",
+      "instances": 178,
+      "features": 13,
+      "accuracy_difference": -0.15730158730158728,
+      "absolute_accuracy_difference": 0.15730158730158728,
+      "dra": 0.7693650793650794,
+      "gra": 0.5586
+    },
+    {
+      "dataset": "breast-w",
+      "instances": 699,
+      "features": 9,
+      "accuracy_difference": -0.018571428571428572,
+      "absolute_accuracy_difference": 0.027142857142857156,
+      "dra": 0.918448098663926,
+      "gra": 0.7338
+    },
+    {
+      "dataset": "diabetes",
+      "instances": 768,
+      "features": 8,
+      "accuracy_difference": 0.03257787963670318,
+      "absolute_accuracy_difference": 0.03777268483150838,
+      "dra": 0.7226720991426874,
+      "gra": 0.5599999999999999
+    },
+    {
+      "dataset": "sonar",
+      "instances": 208,
+      "features": 60,
+      "accuracy_difference": 0.03379790940766549,
+      "absolute_accuracy_difference": 0.07212543554006971,
+      "dra": 0.75458768873403,
+      "gra": 0.5876000000000001
+    },
+    {
+      "dataset": "ionosphere",
+      "instances": 351,
+      "features": 34,
+      "accuracy_difference": -0.09416498993963784,
+      "absolute_accuracy_difference": 0.09416498993963784,
+      "dra": 0.7975855130784708,
+      "gra": 0.706
+    },
+    {
+      "dataset": "glass",
+      "instances": 214,
+      "features": 9,
+      "accuracy_difference": -0.18715393133997787,
+      "absolute_accuracy_difference": 0.18715393133997787,
+      "dra": 0.4438538205980066,
+      "gra": 0.6312
+    },
+    {
+      "dataset": "vehicle",
+      "instances": 846,
+      "features": 18,
+      "accuracy_difference": -0.21042116254785942,
+      "absolute_accuracy_difference": 0.21042116254785942,
+      "dra": 0.4952036199095023,
+      "gra": 0.5084000000000001
+    },
+    {
+      "dataset": "segment",
+      "instances": 2310,
+      "features": 19,
+      "accuracy_difference": -0.6792207792207792,
+      "absolute_accuracy_difference": 0.6792207792207792,
+      "dra": 0.28744588744588745,
+      "gra": 0.4364
+    },
+    {
+      "dataset": "ecoli",
+      "instances": 336,
+      "features": 7,
+      "accuracy_difference": -0.14596136962247586,
+      "absolute_accuracy_difference": 0.14596136962247586,
+      "dra": 0.6429323968393328,
+      "gra": 0.3954
+    },
+    {
+      "dataset": "balance-scale",
+      "instances": 625,
+      "features": 4,
+      "accuracy_difference": -0.18080000000000004,
+      "absolute_accuracy_difference": 0.18080000000000004,
+      "dra": 0.5904,
+      "gra": 0.6178
+    },
+    {
+      "dataset": "credit-g",
+      "instances": 1000,
+      "features": 61,
+      "accuracy_difference": 0.03199999999999996,
+      "absolute_accuracy_difference": 0.03199999999999996,
+      "dra": 0.678,
+      "gra": 0.5204
+    },
+    {
+      "dataset": "vowel",
+      "instances": 990,
+      "features": 29,
+      "accuracy_difference": -0.6232323232323231,
+      "absolute_accuracy_difference": 0.6232323232323231,
+      "dra": 0.1929292929292929,
+      "gra": 0.31920000000000004
+    },
+    {
+      "dataset": "haberman",
+      "instances": 306,
+      "features": 14,
+      "accuracy_difference": 0.02622950819672132,
+      "absolute_accuracy_difference": 0.032786885245901655,
+      "dra": 0.7450026441036488,
+      "gra": 0.4314000000000001
+    },
+    {
+      "dataset": "heart-statlog",
+      "instances": 270,
+      "features": 13,
+      "accuracy_difference": -0.0962962962962963,
+      "absolute_accuracy_difference": 0.0962962962962963,
+      "dra": 0.725925925925926,
+      "gra": 0.6285999999999999
+    },
+    {
+      "dataset": "liver-disorders",
+      "instances": 345,
+      "features": 5,
+      "accuracy_difference": 0.1391304347826087,
+      "absolute_accuracy_difference": 0.1391304347826087,
+      "dra": 0.3130434782608696,
+      "gra": 0.1418
+    },
+    {
+      "dataset": "tic-tac-toe",
+      "instances": 958,
+      "features": 27,
+      "accuracy_difference": -0.2317899214659686,
+      "absolute_accuracy_difference": 0.2317899214659686,
+      "dra": 0.7035394851657941,
+      "gra": 0.6092000000000001
+    },
+    {
+      "dataset": "car",
+      "instances": 1728,
+      "features": 21,
+      "accuracy_difference": -0.18980145765267656,
+      "absolute_accuracy_difference": 0.18980145765267656,
+      "dra": 0.777788389042473,
+      "gra": 0.873
+    },
+    {
+      "dataset": "blood-transfusion-service-center",
+      "instances": 748,
+      "features": 4,
+      "accuracy_difference": 0.05085458612975391,
+      "absolute_accuracy_difference": 0.05085458612975391,
+      "dra": 0.8101029082774047,
+      "gra": 0.5004
+    },
+    {
+      "dataset": "banknote-authentication",
+      "instances": 1372,
+      "features": 4,
+      "accuracy_difference": -0.1311904445919044,
+      "absolute_accuracy_difference": 0.1311904445919044,
+      "dra": 0.8513178500331785,
+      "gra": 0.806
+    },
+    {
+      "dataset": "climate-model-simulation-crashes",
+      "instances": 540,
+      "features": 20,
+      "accuracy_difference": 0.02777777777777777,
+      "absolute_accuracy_difference": 0.03518518518518521,
+      "dra": 0.924074074074074,
+      "gra": 0.9188000000000001
+    },
+    {
+      "dataset": "cmc",
+      "instances": 1473,
+      "features": 24,
+      "accuracy_difference": -0.046168569122564306,
+      "absolute_accuracy_difference": 0.046168569122564306,
+      "dra": 0.42363657327337717,
+      "gra": 0.36619999999999997
+    },
+    {
+      "dataset": "wdbc",
+      "instances": 569,
+      "features": 30,
+      "accuracy_difference": -0.02282254308337217,
+      "absolute_accuracy_difference": 0.02282254308337217,
+      "dra": 0.9033690420742122,
+      "gra": 0.6689999999999999
+    },
+    {
+      "dataset": "planning-relax",
+      "instances": 182,
+      "features": 12,
+      "accuracy_difference": 0.08258258258258258,
+      "absolute_accuracy_difference": 0.0936936936936937,
+      "dra": 0.7639639639639639,
+      "gra": 0.7174
+    },
+    {
+      "dataset": "qsar-biodeg",
+      "instances": 1055,
+      "features": 41,
+      "accuracy_difference": -0.07109004739336496,
+      "absolute_accuracy_difference": 0.07109004739336496,
+      "dra": 0.7393364928909952,
+      "gra": 0.5528
+    },
+    {
+      "dataset": "steel-plates-fault",
+      "instances": 1941,
+      "features": 33,
+      "accuracy_difference": -0.06543344022473699,
+      "absolute_accuracy_difference": 0.06543344022473699,
+      "dra": 0.934566559775263,
+      "gra": 0.9570000000000001
+    },
+    {
+      "dataset": "phoneme",
+      "instances": 5404,
+      "features": 5,
+      "accuracy_difference": -0.11843217870969953,
+      "absolute_accuracy_difference": 0.11843217870969953,
+      "dra": 0.7535176619727961,
+      "gra": 0.516
+    },
+    {
+      "dataset": "waveform-5000",
+      "instances": 5000,
+      "features": 40,
+      "accuracy_difference": -0.1766,
+      "absolute_accuracy_difference": 0.1766,
+      "dra": 0.5713999999999999,
+      "gra": 0.4029999999999999
+    },
+    {
+      "dataset": "kc1",
+      "instances": 2109,
+      "features": 21,
+      "accuracy_difference": 0.03318998998097515,
+      "absolute_accuracy_difference": 0.03318998998097515,
+      "dra": 0.8520640317006449,
+      "gra": 0.5156000000000001
+    }
+  ]
+}

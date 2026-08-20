@@ -18,6 +18,7 @@ venv/
 .local/
 *.local.md
 
-results/
+results/*
+!results/reproduction.json
 figures/*.png
 !figures/.gitkeep
